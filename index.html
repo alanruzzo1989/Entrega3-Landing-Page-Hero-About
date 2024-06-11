@@ -6,25 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page - Hero + About</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-    <header>
+    <header class="header">
+        <a href="#">
+            <img class="logo" src="./img/LogoEyE..png" alt="Logo EyE">
+        </a>
         <nav class="navbar">
-            <a href="#">
-                <img class="logo" src="./img/LogoEyE..png" alt="Logo EyE">
-                <ul class="nav-ul">
-            </a>
-            <li class="nav-list"><a class="nav-link" href="#">-ZAPATILLAS-</a></li>
-            <li class="nav-list"><a class="nav-link" href="#">-PARTE DE ARRIBA-</a></li>
-            <li class="nav-list"><a class="nav-link" href="#">-PARTE DE ABAJO-</a></li>
-            <li class="nav-list"><a class="nav-link" href="#">-CONTACTANOS-</a></li>
+            <label for="toggle-menu"><i class="fa-solid fa-bars-staggered"></i></label>
+            <input type="checkbox" id="toggle-menu">
+            <ul class="nav-ul">
+                <li class="nav-list"><a class="nav-link" href="#">-ZAPATILLAS-</a></li>
+                <li class="nav-list"><a class="nav-link" href="#">-PARTE DE ARRIBA-</a></li>
+                <li class="nav-list"><a class="nav-link" href="#">-PARTE DE ABAJO-</a></li>
+                <li class="nav-list"><a class="nav-link" href="#">-CONTACTANOS-</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="hero-section">
+    <main class="main">
+        <section class="hero-section attach">
             <div class="div-hero1">
                 <div class="hero-div hero-title">
                     <h1>E & E || Ropa deportiva y urbana</h1>
