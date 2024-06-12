@@ -178,9 +178,9 @@
   align-items: center;
   text-align: center;
   gap: 60px;
-  padding: 80px 100px;
+  padding: 80px 80px;
   background-color: whitesmoke;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .cards-content {
@@ -286,10 +286,18 @@
   #toggle-menu:checked ~ .nav-ul {
     display: flex;
   }
+
+  .cards {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 990px) {
   .hero-logo {
     height: 350px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
   }
 }
